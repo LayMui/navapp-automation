@@ -12,22 +12,21 @@ class ButtonPage extends Page {
    * a method to encapsule automation code to interact with the page
    */
   async showButton() {
-
     await $('~Button').waitForDisplayed() &&
       $('~Button').touchAction('tap')
-
-    // await browser.waitUntil(async () => await $('~Button').isDisplayed(), {
-    //   timeout: 5000,
-    //   timeoutMsg: 'expected button to be displayed after 5s',
-    // }),
-    //   await $('~Button').touchAction('tap')
   }
 
   async customButton() {
-    await browser.waitUntil(async () => await $('~CustomButton').isDisplayed(), {
-      timeout: 5000,
-      timeoutMsg: 'expected custom button to be displayed after 5s',
-    })
+    await $('~CustomButton').waitForDisplayed() &&
+      $('~CustomButton').touchAction('tap')
+
+
+    //  await $('~Button').waitForDisplayed() &&
+    //   $('~Button').touchAction('tap')
+    // await browser.waitUntil(async () => await $('~CustomButton').isDisplayed(), {
+    //   timeout: 5000,
+    //   timeoutMsg: 'expected custom button to be displayed after 5s',
+    // })
   }
 
   async backToHome() {
