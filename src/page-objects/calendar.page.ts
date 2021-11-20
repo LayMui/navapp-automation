@@ -14,7 +14,7 @@ class CalendarPage extends Page {
   async showCalendar() {
      
     await $('~Calendar').waitForDisplayed() &&
-      $('~Calendar').touchAction('tap')
+      await $('~Calendar').touchAction('tap')
   }
 
   async calendarPrev() {

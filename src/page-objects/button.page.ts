@@ -13,20 +13,13 @@ class ButtonPage extends Page {
    */
   async showButton() {
     await $('~Button').waitForDisplayed() &&
-      $('~Button').touchAction('tap')
+      await $('~Button').touchAction('tap')
   }
 
   async customButton() {
 
-    // await browser.waitUntil(
-    //   async () => await $('~CustomButton').isDisplayed(),
-    //   {
-    //     timeout: 5000,
-    //     timeoutMsg: 'expected custom button to be displayed after 5s',
-    //   }
-    // ),
       await $('~CustomButton').waitForDisplayed() && 
-      $('~CustomButton').touchAction('tap')
+      await $('~CustomButton').touchAction('tap')
 
   }
 
