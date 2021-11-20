@@ -12,6 +12,8 @@ When('{pronoun} want to select for {string}', async (actor: Actor, component: st
   switch (component) {
     case 'Button':
       await ButtonPage.showButton()
+      // this didn't get clicked
+      await ButtonPage.customButton()
       break
 
     case 'Calendar':
@@ -20,14 +22,6 @@ When('{pronoun} want to select for {string}', async (actor: Actor, component: st
   }
 })
 
-Then('{pronoun} is able to see the component {string} displayed', async (actor: Actor, component: string) => {
-  switch (component) {
-    case 'Button':
-      await ButtonPage.customButton()
-      break
-    case 'Calendar':
-      await CalendarPage.calendarPrev()
-      break
-  }
+Then('{pronoun} is able to see the component displayed', async (actor: Actor) => {
   await ButtonPage.backToHome()
 })

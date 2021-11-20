@@ -17,16 +17,17 @@ class ButtonPage extends Page {
   }
 
   async customButton() {
-    await $('~CustomButton').waitForDisplayed() &&
+
+    await browser.waitUntil(
+      async () => await $('~CustomButton').isDisplayed(),
+      {
+        timeout: 5000,
+        timeoutMsg: 'expected custom button to be displayed after 5s',
+      }
+    ),
+      await $('~CustomButton').waitForExist(),
       $('~CustomButton').touchAction('tap')
 
-
-    //  await $('~Button').waitForDisplayed() &&
-    //   $('~Button').touchAction('tap')
-    // await browser.waitUntil(async () => await $('~CustomButton').isDisplayed(), {
-    //   timeout: 5000,
-    //   timeoutMsg: 'expected custom button to be displayed after 5s',
-    // })
   }
 
   async backToHome() {

@@ -3,9 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>files</key>
-	<dict/>
+	<dict>
+		<key>app.config</key>
+		<data>
+		wZXIw/Br2uz3/FU5Xe7Ve47/wxQ=
+		</data>
+	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>app.config</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wZXIw/Br2uz3/FU5Xe7Ve47/wxQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			xfkXGbGwkvO6o7cQvq4cmhjHaiIDcLOuWvfeE9nAwhs=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>

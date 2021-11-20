@@ -5,12 +5,12 @@ Feature: Show Component
   
     Background: 
       Given Jan is at the app
-
+@test
   Scenario Outline: Component
     When he want to select for "<component>"
-    Then he is able to see the component "<component>" displayed
+    Then he is able to see the component displayed
 
     Examples:
     | component |
     | Button    | 
-    | Calendar  | 
+#    | Calendar  | 
