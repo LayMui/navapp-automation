@@ -23,5 +23,5 @@ When('{pronoun} want to select for {string}', async (actor: Actor, component: st
 })
 
 Then('{pronoun} is able to see the component displayed', async (actor: Actor) => {
-  await ButtonPage.backToHome()
+//  await ButtonPage.backToHome()
 })
