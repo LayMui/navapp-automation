@@ -13,7 +13,7 @@ When('{pronoun} want to select for {string}', async (actor: Actor, component: st
     case 'Button':
       await ButtonPage.showButton()
       // this didn't get clicked
-      await ButtonPage.customButton()
+     // await ButtonPage.customButton()
       break
 
     case 'Calendar':
@@ -21,6 +21,16 @@ When('{pronoun} want to select for {string}', async (actor: Actor, component: st
       break
   }
 })
+
+When(
+  '{pronoun} select custom button',
+  async (actor: Actor) => {
+    await ButtonPage.customButton()
+    await CalendarPage.backToButton()
+    
+        
+  }
+)
 
 Then('{pronoun} is able to see the component displayed', async (actor: Actor) => {
   await ButtonPage.backToHome()

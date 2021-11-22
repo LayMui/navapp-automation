@@ -12,14 +12,17 @@ class CalendarPage extends Page {
    * a method to encapsule automation code to interact with the page
    */
   async showCalendar() {
-     
-    await $('~Calendar').waitForDisplayed() &&
-      await $('~Calendar').touchAction('tap')
+    ;(await $('~Calendar').waitForDisplayed()) &&
+      (await $('~Calendar').touchAction('tap'))
   }
 
   async calendarPrev() {
     await $('~Previous').isDisplayed()
-    
+  }
+
+  async backToButton() {
+    await $('~Button, back').waitForExist(),
+    await $('~Button, back').touchAction('tap')
   }
 }
 

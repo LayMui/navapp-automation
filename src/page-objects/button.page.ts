@@ -1,3 +1,6 @@
+import { Duration } from '@serenity-js/core'
+import { isPresent, Wait } from '@serenity-js/webdriverio'
+import calendarPage from './calendar.page'
 import Page from './page'
 
 /**
@@ -17,22 +20,29 @@ class ButtonPage extends Page {
   }
 
   async customButton() {
-
-      await $('~CustomButton').waitForDisplayed() && 
-      await $('~CustomButton').touchAction('tap')
-
+   // ;(await $('~X').waitForDisplayed()) && (await $('~X').click())
+   
+    if ($('~X').waitForDisplayed()) {
+     const _x = await ($('~X').getLocation('x'))
+     const _y = await ($('~X').getLocation('y'))
+      browser.execute('mobile: tap', {
+        x: _x + 1,
+        y: _y + 5,
+      })
+    }
+  
   }
 
   async backToHome() {
-    await browser.waitUntil(
-      async () => await $('~Design System Testing, back').isDisplayed(),
-      {
-        timeout: 5000,
-        timeoutMsg: 'expected back button to be displayed after 5s',
-      }
-    ),
-      await $('~Design System Testing, back').waitForExist(),
-      await $('~Design System Testing, back').touchAction('tap')
+    // await browser.waitUntil(
+    //   async () => await $('~Design System Testing, back').isDisplayed(),
+    //   {
+    //     timeout: 5000,
+    //     timeoutMsg: 'expected back button to be displayed after 5s',
+    //   }
+    // ),
+      await $('~Home, back').waitForExist(),
+      await $('~Home, back').touchAction('tap')
   }
 
   /**
