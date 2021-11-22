@@ -16,21 +16,25 @@ class ButtonPage extends Page {
    */
   async showButton() {
     await $('~Button').waitForDisplayed() &&
-      await $('~Button').touchAction('tap')
+    await $('~Button').touchAction('tap')
+  }
+
+  async changeButton() {
+    await $('~ChangeButton').waitForDisplayed() &&
+      await $('~ChangeButton').touchAction('tap')
   }
 
   async customButton() {
-   // ;(await $('~X').waitForDisplayed()) && (await $('~X').click())
-   
-    if ($('~X').waitForDisplayed()) {
-     const _x = await ($('~X').getLocation('x'))
-     const _y = await ($('~X').getLocation('y'))
+    //await $('~CustomButton').waitForDisplayed() && await $('~CustomButton').touchAction('tap')
+
+    if ($('~CustomButton').waitForDisplayed()) {
+      const _x = await $('~CustomButton').getLocation('x')
+      const _y = await $('~CustomButton').getLocation('y')
       browser.execute('mobile: tap', {
         x: _x + 1,
         y: _y + 5,
       })
     }
-  
   }
 
   async backToHome() {
@@ -41,7 +45,7 @@ class ButtonPage extends Page {
     //     timeoutMsg: 'expected back button to be displayed after 5s',
     //   }
     // ),
-      await $('~Home, back').waitForExist(),
+    await $('~Home, back').waitForExist(),
       await $('~Home, back').touchAction('tap')
   }
 
