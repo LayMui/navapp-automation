@@ -12,7 +12,8 @@
     "ios.app": "wdio config/wdio.ios.app.conf.ts",
     "android.app": "wdio config/wdio.android.app.conf.ts",
     "lint": "eslint --ext ts --config .eslintrc.js .",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "report": "open target/site/serenity/index.html"
   },
   "keywords": [
     "webdriverio"

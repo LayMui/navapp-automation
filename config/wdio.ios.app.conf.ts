@@ -28,7 +28,7 @@ config.capabilities = [
     'appium:app': join(process.cwd(), './apps/navapp.app'),
     // Read the reset strategies very well, they differ per platform, see
     // http://appium.io/docs/en/writing-running-appium/other/reset-strategies/
-    'appium:noReset': false,
+    'appium:noReset': true,
     'appium:newCommandTimeout': 240,
   },
 ]
