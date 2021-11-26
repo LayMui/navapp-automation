@@ -14,14 +14,19 @@ class ButtonPage extends Page {
   /**
    * a method to encapsule automation code to interact with the page
    */
-  async showButton() {
-    await $('~Button').waitForDisplayed() &&
-    await $('~Button').touchAction('tap')
+  async showButtonNewCreation() {
+    (await $('~NewCreation').waitForDisplayed()) &&
+      (await $('~NewCreation').touchAction('tap'))
+  }
+
+  async showButtonDaughterOfKingdom() {
+    (await $('~DaughterOfKingdom').waitForDisplayed()) &&
+      (await $('~DaughterOfKingdom').touchAction('tap'))
   }
 
   async changeButton() {
-    await $('~ChangeButton').waitForDisplayed() &&
-      await $('~ChangeButton').touchAction('tap')
+    ;(await $('~ChangeButton').waitForDisplayed()) &&
+      (await $('~ChangeButton').touchAction('tap'))
   }
 
   async customButton() {

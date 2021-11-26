@@ -11,7 +11,11 @@ Given('{actor} is at the app', (actor: Actor) => {})
 When('{pronoun} want to select for {string}', async (actor: Actor, component: string) => {
   switch (component) {
     case 'Button':
-       await ButtonPage.showButton()
+       await ButtonPage.showButtonNewCreation()
+       await ButtonPage.customButton()
+       await CalendarPage.backToButton()
+       await ButtonPage.backToHome()
+       await ButtonPage.showButtonDaughterOfKingdom()
        await ButtonPage.customButton()
        await CalendarPage.backToButton()
       break
