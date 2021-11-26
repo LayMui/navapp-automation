@@ -9,9 +9,8 @@ import CalendarPage from '../page-objects/calendar.page'
 When(
   '{pronoun} want to trigger button event to change the button title',
   async (actor: Actor) => {
-     await ButtonPage.showButton()
+     await ButtonPage.showButtonNewCreation()
      await ButtonPage.changeButton()
-    
   }
 )
 

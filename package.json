@@ -8,7 +8,7 @@
     "clean": "rimraf target",
     "test": "failsafe clean test:execute test:report",
     "test:execute": "wdio config/wdio.ios.app.conf.ts",
-    "test:report": "serenity-bdd run --features ./test/features",
+    "test:report": "serenity-bdd run --features ./features",
     "ios.app": "wdio config/wdio.ios.app.conf.ts",
     "android.app": "wdio config/wdio.android.app.conf.ts",
     "lint": "eslint --ext ts --config .eslintrc.js .",
