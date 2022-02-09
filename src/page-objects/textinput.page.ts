@@ -13,15 +13,18 @@ class TextInputPage extends Page {
    */
   async enterText(text) {
 
-      // const _x = await $('~PhoneNumberInput').getLocation('x')
-      // const _y = await $('~PhoneNumberInput').getLocation('y')
+      const _x = await $('~AhuaTextInput').getLocation('x')
+      const _y = await $('~AhuaTextInput').getLocation('y')
 
-      // driver.execute('mobile: tap', { x: _x + 1, y: _y })
+      driver.execute('mobile: tap', { x: _x + 1, y: _y + 1})
     
        await $('~PhoneNumberInput').waitForDisplayed() 
        await $('~PhoneNumberInput').touchAction('tap')
-     //  await $('~PhoneNumberInput').setValue(text)
        await $('~PhoneNumberInput').addValue(text)
+
+        //  await $('~AhuaTextInput').waitForDisplayed()
+        //  await $('~AhuaTextInput').touchAction('tap')
+         await $('~AhuaTextInput').addValue(text)
   }
 
   async textEntered() {
