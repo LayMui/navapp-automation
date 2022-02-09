@@ -5,7 +5,8 @@ Feature: Button Event Handling
   
     Background: 
       Given Jan is at the app
-@test
+
+
   Scenario: Button Event Change title
     When he want to trigger button event to change the button title
     Then he is able to see the button title changed

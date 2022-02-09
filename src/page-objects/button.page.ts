@@ -15,13 +15,18 @@ class ButtonPage extends Page {
    * a method to encapsule automation code to interact with the page
    */
   async showButtonNewCreation() {
-    (await $('~NewCreation').waitForDisplayed()) &&
+    ;(await $('~NewCreation').waitForDisplayed()) &&
       (await $('~NewCreation').touchAction('tap'))
   }
 
   async showButtonDaughterOfKingdom() {
-    (await $('~DaughterOfKingdom').waitForDisplayed()) &&
+    ;(await $('~DaughterOfKingdom').waitForDisplayed()) &&
       (await $('~DaughterOfKingdom').touchAction('tap'))
+  }
+
+  async showButtonAhuaTextInput() {
+    ;;;(await $('~AhuaTextInput').waitForDisplayed()) &&
+      (await $('~AhuaTextInput').touchAction('tap'))
   }
 
   async changeButton() {
