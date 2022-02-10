@@ -13,18 +13,13 @@ class TextInputPage extends Page {
    */
   async enterText(text) {
 
-         await $('~PhoneNumberInput').waitForDisplayed()
-         await $('~PhoneNumberInput').touchAction('tap')
-         await $('~PhoneNumberInput').addValue(text)
-
-
-          await $('~NameInput').waitForDisplayed()
-          await $('~NameInput').touchAction('tap')
-          await $('~NameInput').addValue(text)
+        //  await $('~PhoneNumberInput').waitForDisplayed()
+        //  await $('~PhoneNumberInput').touchAction('tap')
+        //  await $('~PhoneNumberInput').addValue(text)
 
           await $('~AhuaTextInput').waitForDisplayed()
-          await $('~AhuaTextInput').touchAction('tap')
-          await $('~AhuaTextInput').addValue(text)
+          await $('~AhuaTextInput').touchAction('tap') //Issue with touchAction
+          await $('~AhuaTextInput').setValue(text)
 
           
   }
