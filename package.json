@@ -50,3 +50,4 @@
     "wdio-chromedriver-service": "^7.2.6",
     "webdriverio": "^7.16.14"
   }
+}

@@ -25,8 +25,8 @@ class ButtonPage extends Page {
   }
 
   async showButtonAhuaTextInput() {
-    ;;;(await $('~AhuaTextInput').waitForDisplayed()) &&
-      (await $('~AhuaTextInput').touchAction('tap'))
+    ;;;(await $('~AhuaTextInputButton').waitForDisplayed()) &&
+      (await $('~AhuaTextInputButton').touchAction('tap'))
   }
 
   async changeButton() {
