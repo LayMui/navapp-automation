@@ -44,3 +44,12 @@ Such a service eliminates the need to start appium manually before starting your
 ```
 yarn ios.app
 ```
+
+After upgrade chromedriver version, run
+```
+xattr -r -d com.apple.quarantine /usr/local/bin/chromedriver
+```
+Check the latest version 
+```
+chromedriver --version
+```
