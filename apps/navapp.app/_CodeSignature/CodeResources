@@ -6,11 +6,11 @@
 	<dict>
 		<key>AccessibilityResources.bundle/Info.plist</key>
 		<data>
-		rpQ3MXUJ7mi0alJnCazyP1Hj50Q=
+		tMK0teO8ULeM1+5N31ndptQltNU=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		EG/f+jQjcuhS1KpMZ82T1N4a7U0=
+		+ZGxfM9sA3ukays++IBiVwesnWI=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		BOdEJvCGgLra1m+gMoT+wu9FBME=
+		i8VzhsDFybh69IEe25zN6j87eqI=
 		</data>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -39,15 +39,15 @@
 		</dict>
 		<key>Assets.car</key>
 		<data>
-		ytMtpthld2dfxCmSfywg5YWR8B8=
+		yQZzoW/IwEKZ0VscKaMwMg8OIPA=
 		</data>
 		<key>EXConstants.bundle/Info.plist</key>
 		<data>
-		r8ZHj5lwdPkm79WkwS2ukc1Tn6o=
+		JVYcwdxdYcpmPcIG5aanl/61V+8=
 		</data>
 		<key>EXConstants.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		zj1Pq+L2eqpfbMJ0v2s/Hm9ltDI=
+		cES8BlRYaxRrGpJadyQwITqldJU=
 		</data>
 		<key>EXConstants.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -55,7 +55,7 @@
 		</data>
 		<key>EXConstants.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		yViOo4T8uGCCNbJgycCFCjJ/yt0=
+		qqhS9FY3kL2pu8h4KoGMsTjYn3I=
 		</data>
 		<key>EXConstants.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -71,11 +71,11 @@
 		</data>
 		<key>EXUpdates.bundle/Info.plist</key>
 		<data>
-		FEjYkbYaxcq8Jcfvxwxg5/LU03I=
+		w8eI204q4LV7nKOtB/aj8V0WFFY=
 		</data>
 		<key>EXUpdates.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		atHnZO4gpmf1dF0acTfGXuhLSlM=
+		OgiDom5qOu3c/wy35lKpJZPx0s8=
 		</data>
 		<key>EXUpdates.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -83,7 +83,7 @@
 		</data>
 		<key>EXUpdates.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		+Ok66GLg/hywB4FJRYR4r5DCT1U=
+		/HGFr4+3v+nvrzF96HTygJm2FQ8=
 		</data>
 		<key>EXUpdates.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -99,7 +99,187 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HiHUYxBUfPhCmQa02D3r8Rzi3RM=
+		JFlGOb47wVWX8iIjHWpT9r9GeBc=
+		</data>
+		<key>NotoSans-Black.ttf</key>
+		<data>
+		5XNWXUgpvZZlF/+1XSZQKNdW72k=
+		</data>
+		<key>NotoSans-Bold.ttf</key>
+		<data>
+		4LVJuqTzla+xtau7GalluO130oc=
+		</data>
+		<key>NotoSans-Medium.ttf</key>
+		<data>
+		VtbM797tGZ0PWqFQfkDv99rwF4o=
+		</data>
+		<key>NotoSans-Regular.ttf</key>
+		<data>
+		pFa6QRHIBKpfFyLc+GWOqUufGbQ=
+		</data>
+		<key>NotoSans-SemiBold.ttf</key>
+		<data>
+		vLEaY2+HTmgKxgeffLzQgJcNjjk=
+		</data>
+		<key>NotoSansBengaliUI-Black.ttf</key>
+		<data>
+		41F+caFEN1uSy93NW1IOR1KbPxQ=
+		</data>
+		<key>NotoSansBengaliUI-Bold.ttf</key>
+		<data>
+		gdftOWCM+yrc0JE0Uj5A7vrDnr8=
+		</data>
+		<key>NotoSansBengaliUI-Medium.ttf</key>
+		<data>
+		NcXWSMjs4hWi22YzWIgNeOGhqOE=
+		</data>
+		<key>NotoSansBengaliUI-Regular.ttf</key>
+		<data>
+		8uLJk7GZqrjov4fo5CoMk6c4V98=
+		</data>
+		<key>NotoSansBengaliUI-SemiBold.ttf</key>
+		<data>
+		8ndG3cRdeuseKCvgeUIRSBV222o=
+		</data>
+		<key>NotoSansDevanagariUI-Black.ttf</key>
+		<data>
+		Dnf0hMgoHUMm2lemRKtSsdlDIRE=
+		</data>
+		<key>NotoSansDevanagariUI-Bold.ttf</key>
+		<data>
+		OuPiMPOye+p1Tjv+p2jycJFMl6c=
+		</data>
+		<key>NotoSansDevanagariUI-Medium.ttf</key>
+		<data>
+		a/d0EtL5bSIKjq31ywXWl+e1dzI=
+		</data>
+		<key>NotoSansDevanagariUI-Regular.ttf</key>
+		<data>
+		2/MWdPX+0b1t0udtdkqoG8wcbn4=
+		</data>
+		<key>NotoSansDevanagariUI-SemiBold.ttf</key>
+		<data>
+		UEu35dpc5yZIqBaQRktTNMtyIrw=
+		</data>
+		<key>NotoSansGujaratiUI-Black.ttf</key>
+		<data>
+		htGDas9HlH7xntFqgJErY4UnXqM=
+		</data>
+		<key>NotoSansGujaratiUI-Bold.ttf</key>
+		<data>
+		M10rJu0dJY/g9gqIZETJHd0hMNg=
+		</data>
+		<key>NotoSansGujaratiUI-Medium.ttf</key>
+		<data>
+		fTIhVKTKZ7bdUQYM4DlT9QtLTVw=
+		</data>
+		<key>NotoSansGujaratiUI-Regular.ttf</key>
+		<data>
+		WTtN64KnURm7gvK+4pM8+u4Czvs=
+		</data>
+		<key>NotoSansGujaratiUI-SemiBold.ttf</key>
+		<data>
+		cY51dDe4MuO2KScoz8aVYY4BE34=
+		</data>
+		<key>NotoSansGurmukhiUI-Black.ttf</key>
+		<data>
+		NrYiD8Urc7NCNwcqbKwq6S7boHQ=
+		</data>
+		<key>NotoSansGurmukhiUI-Bold.ttf</key>
+		<data>
+		TqBkkbD13REOdPurTqy8JedfEGg=
+		</data>
+		<key>NotoSansGurmukhiUI-Medium.ttf</key>
+		<data>
+		mnPdMUgdzhPik6UkcdNjT/U45cA=
+		</data>
+		<key>NotoSansGurmukhiUI-Regular.ttf</key>
+		<data>
+		rLJZMmCeleiqimZQlXjLogRZzl4=
+		</data>
+		<key>NotoSansGurmukhiUI-SemiBold.ttf</key>
+		<data>
+		IZKhHcWJJ/Wx0pTgf6LhyRHxO0k=
+		</data>
+		<key>NotoSansKannadaUI-Black.ttf</key>
+		<data>
+		yhEfWFeXI15+XJmWWHO69JB6jqE=
+		</data>
+		<key>NotoSansKannadaUI-Bold.ttf</key>
+		<data>
+		w9wRbP3VQG4w+OxFA0DDDCXsJgU=
+		</data>
+		<key>NotoSansKannadaUI-Medium.ttf</key>
+		<data>
+		qHyY4Ty6XFQsJroRh0cpjG1Q2ho=
+		</data>
+		<key>NotoSansKannadaUI-Regular.ttf</key>
+		<data>
+		OUHUn/Y1ARcfUVZLgVYX0XcDhjU=
+		</data>
+		<key>NotoSansKannadaUI-SemiBold.ttf</key>
+		<data>
+		kfEcium/kFMLsd0Edb0sjZi5MB4=
+		</data>
+		<key>NotoSansTamilUI-SemiCondensed.ttf</key>
+		<data>
+		4YQk56R3KwbE0jJTuM/NpgopPKQ=
+		</data>
+		<key>NotoSansTamilUI-SemiCondensedBlack.ttf</key>
+		<data>
+		q8WP+zTYOK4Y6Ph+sQnC9hN5dmo=
+		</data>
+		<key>NotoSansTamilUI-SemiCondensedBold.ttf</key>
+		<data>
+		h8DZDj19yZCXU46mhE6KSP5HYKg=
+		</data>
+		<key>NotoSansTamilUI-SemiCondensedMedium.ttf</key>
+		<data>
+		+s+nNPsw4CIaFVucaUhg3jrbzzc=
+		</data>
+		<key>NotoSansTamilUI-SemiCondensedSemiBold.ttf</key>
+		<data>
+		iIdi+blST9YMDuGHcv7xabVt8OY=
+		</data>
+		<key>NotoSansTeluguUI-Black.ttf</key>
+		<data>
+		wINAVJs7EoDEWQnoCPSuiPLCUU4=
+		</data>
+		<key>NotoSansTeluguUI-Bold.ttf</key>
+		<data>
+		D/5wtfZ45HKflwdXQUk0AUfnhAQ=
+		</data>
+		<key>NotoSansTeluguUI-Medium.ttf</key>
+		<data>
+		Cpdf49Kp1KoQ8umSFYUTbjScqag=
+		</data>
+		<key>NotoSansTeluguUI-Regular.ttf</key>
+		<data>
+		9QQHi2WdMgvVRctkcLLbCrLAQVk=
+		</data>
+		<key>NotoSansTeluguUI-SemiBold.ttf</key>
+		<data>
+		AmMTLaKYPIscoKnbtbj064/dkSE=
+		</data>
+		<key>NotoSansThaiUI-Black.ttf</key>
+		<data>
+		KR/BY57Cru9gsZ+i+pa1Vi+j8nI=
+		</data>
+		<key>NotoSansThaiUI-Bold.ttf</key>
+		<data>
+		9BDoApZR4ny1IqgyNANnjJuayp8=
+		</data>
+		<key>NotoSansThaiUI-SemiBold.ttf</key>
+		<data>
+		g8UF01Bz5HL3I3EFJZNPwSP2i5M=
+		</data>
+		<key>NotoSerifThai-Medium.ttf</key>
+		<data>
+		Ex8GSKBndgtca/1M/kZ928z1m+A=
+		</data>
+		<key>NotoSerifThai-Regular.ttf</key>
+		<data>
+		8fLhak2dIttJOhlz4LOwVtj9CKY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -107,7 +287,7 @@
 		</data>
 		<key>SplashScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-ContainerView.nib</key>
 		<data>
-		8qeX38Lyru5uW1SiEJ9CC9RwjeI=
+		3hTLG8PMrhwBQhQQUZlYmOSYvAI=
 		</data>
 		<key>SplashScreen.storyboardc/Info.plist</key>
 		<data>
@@ -115,7 +295,7 @@
 		</data>
 		<key>SplashScreen.storyboardc/SplashScreenViewController.nib</key>
 		<data>
-		QCIOM1a+ByMRxERtb+GguLYjEsA=
+		yhhxq5uhkJtQzgyhRK91rrJyBjg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -124,14 +304,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zazPVxAl3JbjMV6ikgv8TqJeIi37PU5vSYc3BHj5E5Q=
+			K2miUCShxAGDzytrQvClDZPM4j5o0Xy9HHDrvElkc+w=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/lsf3pTkdqQ2mqYMDNFDFNLgh4BxYIfrS7LPmMY6Ej4=
+			WY3NSxcGgORi5kbgOtasWkzJKB/cM1M6A3nGivYw/rY=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -145,7 +325,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R0gab/O2qb6kdi1WQKj85jl4qc9LaRHOekT6Aw/gUPM=
+			SkjB6LJWfpAdJugxZpnGKSNDQ5Zq6PAfhGomzrSUn+8=
 			</data>
 		</dict>
 		<key>AccessibilityResources.bundle/_CodeSignature/CodeResources</key>
@@ -175,21 +355,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/W1eAkEQ1IJie0WfESMRBZEs9l3k8qjr3yjJaEm5HoM=
+			2xJzGhuHF24+Wgui8OxCHgiPhhZReGT9y6+7SlU0pZc=
 			</data>
 		</dict>
 		<key>EXConstants.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VMWy9nepnCG1TZFheqgNF20lCgJCIWuU4kBBIAvjX5U=
+			O5aAGbeoNaqZgoHu/xBLE88//P894muz46JWHjFte+w=
 			</data>
 		</dict>
 		<key>EXConstants.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zpSLtkqNtIz57zMpdgvfQx6dKR32P2+DawPSCtHQjWk=
+			SLi98JLCY5DFm2raWBxJRKgqkTwmNfnnH2TdQFfMzHE=
 			</data>
 		</dict>
 		<key>EXConstants.bundle/_CodeSignature/CodeRequirements</key>
@@ -203,7 +383,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U/ooA352E/irZqUPOIG2AjjIRIWiPz4fSQu7daZvPzo=
+			VWyCxVo3BxlUuhX15eq7mi+1wWq1kKmcjqbxa8GIkQo=
 			</data>
 		</dict>
 		<key>EXConstants.bundle/_CodeSignature/CodeResources</key>
@@ -231,14 +411,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			caCmYQoal/MyAVlaDkeOiPkZhjtydUjnDMHp4Pvhq/c=
+			Mw9NDKFox8B6MXmHEBtI+mR5xxCbr8PtRSMwMJDk75M=
 			</data>
 		</dict>
 		<key>EXUpdates.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			03siSD9+Lk2cSI+JIwycGV8pPBaOaQB77VI20JuCsrs=
+			gcN7v2DLG+vo3iVfTMBbE2wA7NuEAbUSd0SFLV88WtA=
 			</data>
 		</dict>
 		<key>EXUpdates.bundle/_CodeSignature/CodeRequirements</key>
@@ -252,7 +432,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g8tPnMVogNt+MOOteQR5PisUPVMdQv2qA1FqaL35X8Q=
+			2egT6W1jvceeNsB4I1kxTLmxPnSMEAB3NiVeUeYsWrI=
 			</data>
 		</dict>
 		<key>EXUpdates.bundle/_CodeSignature/CodeResources</key>
@@ -276,11 +456,326 @@
 			wH61XjFux7pdAD3Dn5apBVUgL2mLboqqrLTNxdatmgw=
 			</data>
 		</dict>
+		<key>NotoSans-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9Z1mC4v6SzOlorGaLC2ACKZ47U4rI4TlzTskSEabD28=
+			</data>
+		</dict>
+		<key>NotoSans-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GWjrCsn3fFpfr37v+XHbgBNPHUebIPTqK4pXRuMnvHg=
+			</data>
+		</dict>
+		<key>NotoSans-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1eeDtPUblL2huYn/U5ffQysGDeaMzNzAuTnmj/lNuTA=
+			</data>
+		</dict>
+		<key>NotoSans-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DVyNy6usdYmiZ28UFczMMbJHInZhHzaGd+Jmabw136g=
+			</data>
+		</dict>
+		<key>NotoSans-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0O7RvW8J0LXCyMPYt7LRlyp3LXnis4jG/x49RrQ6Sh0=
+			</data>
+		</dict>
+		<key>NotoSansBengaliUI-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l7BuVochUHqOY7xRri9wiCoSWyt6EYgzwlHhet8Z//M=
+			</data>
+		</dict>
+		<key>NotoSansBengaliUI-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Fumr4fuiZGNUM4sXbYJTQJixzWhqhzyMa5RJlyMbEGc=
+			</data>
+		</dict>
+		<key>NotoSansBengaliUI-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+Pxu2xpfIRvbrnhYSvbzUk5Ad7bRkuFAv4aE37YRyZo=
+			</data>
+		</dict>
+		<key>NotoSansBengaliUI-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6xhMniJgl2lhUaZWjWG9j3THUK0iQ4tsW1esUkTuz5U=
+			</data>
+		</dict>
+		<key>NotoSansBengaliUI-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SG9cC9jBpC2gnVxgy8AYSR1ToPLqohqsKnyDg9sLsQM=
+			</data>
+		</dict>
+		<key>NotoSansDevanagariUI-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8EEgbE+Yup1ZCbtjekLFowm0NJbfwN6/E8zXPjrxIVI=
+			</data>
+		</dict>
+		<key>NotoSansDevanagariUI-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9Tm4lBHG7CumxbY4r0X+YbE4DXO2cnVuiUQt8ug4+R4=
+			</data>
+		</dict>
+		<key>NotoSansDevanagariUI-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3NK8E0ujm4lLsfKNO/v1EU8DdyVL6lpvExB28MvDi9Y=
+			</data>
+		</dict>
+		<key>NotoSansDevanagariUI-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5kZf2Yb0JSgUoAdM8magYHd40Tnd+9DI8/Vq7LVURc8=
+			</data>
+		</dict>
+		<key>NotoSansDevanagariUI-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OMsMlR6VnkPPWNy4hoBmZ9nIvWny1mNvhplF0ei8epw=
+			</data>
+		</dict>
+		<key>NotoSansGujaratiUI-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eKn8J4TcXbqDc7PNBqPFqDVMed+zCIjiI20dSOBNRik=
+			</data>
+		</dict>
+		<key>NotoSansGujaratiUI-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/Xe2lbchcdbBles4n/Dkvw3eOT2Iq02bG0b23ZpcKOg=
+			</data>
+		</dict>
+		<key>NotoSansGujaratiUI-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JS7Q1ARI4Af+xiL9c54lzMWvKmfVqJWYu0FhpCPB4XU=
+			</data>
+		</dict>
+		<key>NotoSansGujaratiUI-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cg8Hhjau4E/qxF3TDWlNoIlg45V1btTjvKmbo9oy4Iw=
+			</data>
+		</dict>
+		<key>NotoSansGujaratiUI-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aFrDgupNMhUqYDP21LxpBfOGo7ppw1a5wTjGwSXrTTc=
+			</data>
+		</dict>
+		<key>NotoSansGurmukhiUI-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cuz4Yu2lm5uwXNYgFwEOAUmpC0YgkD7aGFPnJZzmT0A=
+			</data>
+		</dict>
+		<key>NotoSansGurmukhiUI-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MEDa7Wz//eO1P1GbTE8xp2P0QmCOhYC5kgA9ur3ybBY=
+			</data>
+		</dict>
+		<key>NotoSansGurmukhiUI-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GyQsaK8gaH1G9pA0I8wTQ/r16Mf7GPf9AWUFZDKAw4k=
+			</data>
+		</dict>
+		<key>NotoSansGurmukhiUI-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RkGFIUUuwdjyv0jsqf5QIDcuOxlnkIidV7HB2XgSICA=
+			</data>
+		</dict>
+		<key>NotoSansGurmukhiUI-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bWrPHPmfhRszdb60kijQQMmI1EzLxeLM9G2oenvcrPo=
+			</data>
+		</dict>
+		<key>NotoSansKannadaUI-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QYsC5YCaXM1+BxOrvrwkmtvHRo7LbgvrvdgUax/lLQQ=
+			</data>
+		</dict>
+		<key>NotoSansKannadaUI-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MaoPA7jm/hWc9KPefw1vCCvOCob0cWABCLbn90EMrIE=
+			</data>
+		</dict>
+		<key>NotoSansKannadaUI-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x+UJPRHb85AZBQdqVOMgYfApB1v+BBanUDk30SYbY+A=
+			</data>
+		</dict>
+		<key>NotoSansKannadaUI-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6DamBjv74g+d95zAI/Oy3c5ACfDXaVKahxUG5WVcmFc=
+			</data>
+		</dict>
+		<key>NotoSansKannadaUI-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1dtOy2GJW4DxcTEct4Jy9iQVNhD3PKfmwghAV5HnDHw=
+			</data>
+		</dict>
+		<key>NotoSansTamilUI-SemiCondensed.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H57m39lF1Hc79FTIgVsC04ixuhdPoDR1BZHbrdw8AB8=
+			</data>
+		</dict>
+		<key>NotoSansTamilUI-SemiCondensedBlack.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vZo6ahgS2BOeiUm1WsO7WuUE88sJPElAznDuTWsU8qI=
+			</data>
+		</dict>
+		<key>NotoSansTamilUI-SemiCondensedBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WP2voT5XEQHOnu9VZ7O+lT9Myej7PNRSvyOoxZmmkqs=
+			</data>
+		</dict>
+		<key>NotoSansTamilUI-SemiCondensedMedium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6EM8n8kRttKTd3VUaM8htdHqxW3fzrbNG+BoUap77g4=
+			</data>
+		</dict>
+		<key>NotoSansTamilUI-SemiCondensedSemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gKIMbpIiVkfx0f2+NPovbx+sdQ3rbymcLzk0n2gOJnA=
+			</data>
+		</dict>
+		<key>NotoSansTeluguUI-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mzklbwF3o+DDUoRPQSlPSAZHbRUUtaph2LtLSNeee1c=
+			</data>
+		</dict>
+		<key>NotoSansTeluguUI-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sBLMvkWAiblTycAj9Jpb7VteScZ9JDRm8nLkteZEkik=
+			</data>
+		</dict>
+		<key>NotoSansTeluguUI-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WqvAEnv3t7AgDSa6Ozy5PoprZsWDmvQ1oFb/jAQLrqs=
+			</data>
+		</dict>
+		<key>NotoSansTeluguUI-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KQxjAe167/SmgdJu+AqL4zVeyGgZUArROLIbX3gwsGY=
+			</data>
+		</dict>
+		<key>NotoSansTeluguUI-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Bguz5Wsdexa1mMLPcrO/JBn8eQgRmMCfSpfl6SQ+fis=
+			</data>
+		</dict>
+		<key>NotoSansThaiUI-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pKqv5pxwEJsEj1ABziwMs11ysOYuTE9Rr3VUox35+Z4=
+			</data>
+		</dict>
+		<key>NotoSansThaiUI-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ua6f2jkSn5yXrELNm1iqZDW9B6mlfW810sjGQf82EoQ=
+			</data>
+		</dict>
+		<key>NotoSansThaiUI-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KlEQZmCZqg/L9bEUs6TRjzv5vS06h2MbwbpzNvq2SBA=
+			</data>
+		</dict>
+		<key>NotoSerifThai-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZdrnIvt/UFGkfk+PiNSUEjX/yMeGRU7sf48upQ2krJo=
+			</data>
+		</dict>
+		<key>NotoSerifThai-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y8ZFlTff2iR/Qtkvu6Du/0QHKIDyoQH6mZxZx5Q+8Fc=
+			</data>
+		</dict>
 		<key>SplashScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-ContainerView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bzj8zKjg+hJ6aakMx6wqYDEkolNdzt8oDKXcE62oX5A=
+			B6dOoox5tawmUMVu7LqBp7EUyjOpTxqGAf7kdA87XM4=
 			</data>
 		</dict>
 		<key>SplashScreen.storyboardc/Info.plist</key>
@@ -294,7 +789,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rspm9fb12UqePqlGd8AWTfo9xHPLd8F4f9MoSgM3rQQ=
+			UhyYi0Yfo5nTnABlx+gj9CXB8/T+2lIFcBzlfCGrud4=
 			</data>
 		</dict>
 	</dict>

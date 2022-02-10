@@ -1,43 +1,6 @@
 import isCI = require('is-ci')
 
-import { ConsoleReporter } from '@serenity-js/console-reporter'
-import { ArtifactArchiver } from '@serenity-js/core'
-import { SerenityBDDReporter } from '@serenity-js/serenity-bdd'
-import {
-  Photographer,
-  TakePhotosOfInteractions,
-  WebdriverIOConfig,
-} from '@serenity-js/webdriverio'
-
-import { Actors } from '../src'
-
-export const config: WebdriverIOConfig = {
-  // =========================
-  // Serenity/JS Configuration
-  // =========================
-  // Enable Serenity/JS framework adapter
-  // see: https://serenity-js.org/modules/webdriverio/
-  framework: '@serenity-js/webdriverio',
-
-  serenity: {
-    // Use custom Actors class
-    // see: https://serenity-js.org/modules/core/class/src/stage/Cast.ts~Cast.html
-    actors: new Actors(),
-
-    // Use Cucumber.js test runner adapter
-    // see: https://serenity-js.org/modules/cucumber/
-    runner: 'cucumber',
-
-    // Configure reporting services
-    // see: https://serenity-js.org/handbook/reporting/
-    crew: [
-      //  ArtifactArchiver.storingArtifactsAt('./target/site/serenity'),
-      // Photographer.whoWill(TakePhotosOfInteractions),     // slower execution, more comprehensive reports
-      // Photographer.whoWill(TakePhotosOfFailures),      // fast execution, screenshots only when tests fail
-      ConsoleReporter.forDarkTerminals(),
-      new SerenityBDDReporter(),
-    ],
-  },
+export const config = {
   //
   // ====================
   // Runner Configuration
@@ -59,7 +22,7 @@ export const config: WebdriverIOConfig = {
   // then the current working directory is where your `package.json` resides, so `wdio`
   // will be called from there.
   //
-  specs: ['./features/**/*.feature'],
+  specs: ['../tests/features/*.feature'],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'

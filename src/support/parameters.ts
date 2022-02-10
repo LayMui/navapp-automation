@@ -1,10 +1,12 @@
 import { defineParameterType } from '@cucumber/cucumber';
-import { actorCalled, actorInTheSpotlight } from '@serenity-js/core';
+import { setDefaultTimeout } from '@cucumber/cucumber'
+
+setDefaultTimeout(10000000)
 
 defineParameterType({
     regexp: /[A-Z][a-z]+/,
     transformer(name: string) {
-        return actorCalled(name);
+     
     },
     name: 'actor',
 });
@@ -12,7 +14,7 @@ defineParameterType({
 defineParameterType({
     regexp: /he|she|they|his|her|their/,
     transformer() {
-        return actorInTheSpotlight();
+
     },
     name: 'pronoun',
 });
